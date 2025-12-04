@@ -19,9 +19,18 @@ html {
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
+  padding: 0;
   background-color: #04020d;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
 
 a {
